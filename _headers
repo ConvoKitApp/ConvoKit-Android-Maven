@@ -1,5 +1,7 @@
 /app/*
   Access-Control-Allow-Origin: *
+
+/app/convokit/convokit-android/:version/*
   Cache-Control: public, max-age=31536000, immutable
 
 /app/convokit/convokit-android/maven-metadata.xml*
