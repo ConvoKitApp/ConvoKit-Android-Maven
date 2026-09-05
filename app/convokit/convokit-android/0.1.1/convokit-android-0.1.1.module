@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "app.convokit",
+    "module": "convokit-android",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "convokit-android-0.1.1.aar",
+          "url": "convokit-android-0.1.1.aar",
+          "size": 158235,
+          "sha512": "c6db55f8ed8c627a62ab28698c53703bdd5ae03889fd047c4ab27d0a9acba4e0af7aafe416c3e7a03acf7a683a1004d652acd6ccc4056d5ed506f3bfacc80eeb",
+          "sha256": "f1677b6eb697371a75906d2025e116b7a13d2a509ba607c92cd8286bffb35230",
+          "sha1": "c9dab56cc310a5b8e48292fd3a52d227b6ecbdeb",
+          "md5": "99003d219ceac87a6201717d1ebf459f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jan-tennert.supabase",
+          "module": "realtime-kt",
+          "version": {
+            "requires": "3.1.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "3.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "convokit-android-0.1.1.aar",
+          "url": "convokit-android-0.1.1.aar",
+          "size": 158235,
+          "sha512": "c6db55f8ed8c627a62ab28698c53703bdd5ae03889fd047c4ab27d0a9acba4e0af7aafe416c3e7a03acf7a683a1004d652acd6ccc4056d5ed506f3bfacc80eeb",
+          "sha256": "f1677b6eb697371a75906d2025e116b7a13d2a509ba607c92cd8286bffb35230",
+          "sha1": "c9dab56cc310a5b8e48292fd3a52d227b6ecbdeb",
+          "md5": "99003d219ceac87a6201717d1ebf459f"
+        }
+      ]
+    }
+  ]
+}
