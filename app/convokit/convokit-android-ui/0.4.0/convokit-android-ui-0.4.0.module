@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "app.convokit",
+    "module": "convokit-android-ui",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "app.convokit",
+          "module": "convokit-android",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.05.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "convokit-android-ui-0.4.0.aar",
+          "url": "convokit-android-ui-0.4.0.aar",
+          "size": 330236,
+          "sha512": "eeb38c5dbc9317dfa24b89bc8a962489c727b99720702a3fe7aa1e9cb7bb184b7e6f38e94b9db01bf3e0205679a50040f561e1e20e82d1c67b037e5053abd11f",
+          "sha256": "d39bbbaa79a7d71eed8808cb17566663ed9d562ce4175c626d28b9ccaa9bdf7b",
+          "sha1": "90c023e581ce16130252b152234159981a84fbc2",
+          "md5": "69c6b10dc025830a2a173d6b0695d7bd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "app.convokit",
+          "module": "convokit-android",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.05.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "convokit-android-ui-0.4.0.aar",
+          "url": "convokit-android-ui-0.4.0.aar",
+          "size": 330236,
+          "sha512": "eeb38c5dbc9317dfa24b89bc8a962489c727b99720702a3fe7aa1e9cb7bb184b7e6f38e94b9db01bf3e0205679a50040f561e1e20e82d1c67b037e5053abd11f",
+          "sha256": "d39bbbaa79a7d71eed8808cb17566663ed9d562ce4175c626d28b9ccaa9bdf7b",
+          "sha1": "90c023e581ce16130252b152234159981a84fbc2",
+          "md5": "69c6b10dc025830a2a173d6b0695d7bd"
+        }
+      ]
+    }
+  ]
+}
